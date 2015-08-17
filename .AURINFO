@@ -1,0 +1,24 @@
+pkgbase = vzctl-git
+	pkgdesc = OpenVZ containers control utility
+	pkgver = 4.8.3.gd9c3a14
+	pkgrel = 1
+	url = http://wiki.openvz.org/Download/vzctl
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = iproute
+	depends = libcgroup>=0.37
+	depends = libxml2
+	depends = openssh
+	depends = ploop
+	depends = rsync
+	provides = vzctl
+	conflicts = vzctl
+	source = git://git.openvz.org/pub/vzctl
+	source = openvz
+	md5sums = SKIP
+	md5sums = 54c08e9b0e41fb9f0a47df721e3af5fa
+
+pkgname = vzctl-git
+
